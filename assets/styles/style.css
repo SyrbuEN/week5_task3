@@ -1,0 +1,106 @@
+/*Шапка*/
+.head {
+    display: flex;
+    min-height: 10vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 10vw;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.menu {
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #40494d 
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+/*Основная часть страницы*/
+.mainpart {
+    display: flex;
+    min-height: 79vh;
+}
+
+/*Левая сторона основной части страницы*/
+#leftmain {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+}
+#leftmain h1 {
+    font-family:'Aboreto', cursive;
+    font-size: 50pt;
+    font-weight: lighter;
+}
+
+#leftmain p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21pt;
+}
+
+/*Правая сторона основной части страницы*/
+#rightmain {
+    display: flex;
+    min-width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#woman {
+    width: 450px;
+}
+
+/*Подвал*/
+.foot {
+    display: flex;
+    min-height: 10vh;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/*Кнопки*/
+.headbuttons {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-width: 15vw;
+}
+
+.search {
+    border-width: 1px;     
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+}
+
+.search:hover {
+    background: rgb(66, 41, 124)
+}
+
+input {
+    border-radius: 35px;
+    background: #283337;
+    color: #ffffff;
+    width:200px;
+    height: 56px;
+}
+
+input:hover {
+    background: rgb(66, 41, 124)
+}
